@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
+  eslint: {
+    config: {
+      stylistic: true
+    }
+  },
   modules: [
     '@nuxt/ui',
     '@nuxt/image',
