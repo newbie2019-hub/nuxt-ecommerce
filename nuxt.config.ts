@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/i18n',
     '@nuxt/test-utils/module',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@nuxtjs/google-fonts'
   ]
 })
